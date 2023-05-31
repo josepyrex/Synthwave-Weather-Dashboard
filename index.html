@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synthwave Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard"">
+        <form id="city-input">
+            <label for="city-input">Enter your City:</label>
+            <input id="city-input" type="text">
+            <button type="submit">Update!</button>
+        </form>
+        <div class="temperature">
+            <h2 class="temp-value"> -- </h2>
+            <p class="temp-unit">F</p>
+        </div>
+        <div class="forecast">
+            <h2>Thunderstorm forecast</h2>
+            <p class="forecast-value">--</p>
+        </div>
+        <div class="interactive">
+            <!-- we'll add it here later -->
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>

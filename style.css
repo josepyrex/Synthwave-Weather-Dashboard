@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(rgba(0,0,0,1), rgba(75,0,130,1));
+    color: white;
+    font-family: 'Courier New', monospace;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.temperature, .forecast {
+    text-align: center;
+}
+
+.temp-value, .forecast-value {
+    font-size: 3em;
+    color: #ff00ff;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #0fffff;
+
+}
