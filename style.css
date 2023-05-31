@@ -26,3 +26,43 @@ h2 {
     color: #0fffff;
 
 }
+
+#city-form {
+    font-family: 'Courier New', Courier, monospace;
+    color: #0f0;
+  }
+  
+  #city-form input,
+  #city-form button {
+    margin: 10px 0;
+  }
+
+  #city-input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #0f0;
+    font-family: 'Courier New', Courier, monospace;
+    color: #0f0;
+  }
+
+  .form input[type="text"] {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+  #city-input:focus{
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: #0f0;
+  }
+
+  #city-form button{
+    border-radius: 100px;
+    padding: 20px;
+    background-color: #0f0;
+    border: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: medium;
+  }
