@@ -68,3 +68,12 @@ h2 {
     font-weight: 800;
     font-size: medium;
   }
+
+  @media (max-width: 480px) {
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
